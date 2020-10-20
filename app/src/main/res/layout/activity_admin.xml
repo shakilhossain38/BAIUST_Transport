@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".Admin">
+
+    <Button
+
+        android:id="@+id/idFindBusAdmin"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065"
+
+        android:background="@drawable/button_layout1"
+        android:padding="15dp"
+        android:text="Find Buses"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:drawableTop="@drawable/image_find_bus"
+
+        />
+
+    <Button
+        android:id="@+id/idMaintainSchedule"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+
+        android:background="@drawable/button_layout2"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="Maintain Schedule"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:drawableTop="@drawable/image_maintain_schedule"
+
+        />
+
+
+    <Button
+        android:id="@+id/idMaintainStudent"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+
+        android:background="@drawable/button_layout2"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="Maintain Students"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:drawableTop="@drawable/image_maintain_student"
+
+        />
+
+    <Button
+        android:id="@+id/idViewScheduleAdmin1"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+
+        android:background="@drawable/button_layout2"
+        android:padding="15dp"
+        android:text="View Schedule"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:drawableTop="@drawable/image_view_schedule"
+
+        />
+
+    <Button
+        android:id="@+id/idMessage"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+
+        android:background="@drawable/button_layout2"
+        android:padding="15dp"
+        android:text="Messages"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:drawableTop="@drawable/image_message"
+
+        />
+
+</android.support.constraint.ConstraintLayout>
